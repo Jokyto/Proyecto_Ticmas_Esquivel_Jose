@@ -1,0 +1,209 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Header*/
+header 
+{
+  background-color: #c44f69;
+}
+
+header nav .botones_nav 
+{
+  border: solid #fcc9b9;
+  background-color: #fcc9b9;
+  border-radius: 10%;
+}
+
+header nav .botones_nav:hover 
+{
+  background-color: #ef653e;
+  border: #ef653e;
+}
+
+header nav div ul li a 
+{
+  display: block;
+  font-size: 150%;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace, cursive;
+  color: #56423c !important;
+}
+
+header nav div ul li a:hover 
+{
+  color: #4f0113 !important;
+}
+
+/*Main*/
+
+main 
+{
+  background-color: #fff5ef;
+}
+
+main h1 
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 300%;
+  text-decoration: underline;
+  text-align: center;
+  font-style: oblique;
+}
+
+main h2 
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 200%;
+  text-decoration: underline;
+  text-align: start;
+  font-style: normal;
+}
+
+main p 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  text-align: justify;
+  font-style: normal;
+}
+main ul li
+{
+  font-size: 100%;
+}
+
+main li
+{
+  font-size: 125%;
+}
+
+main a
+{
+  color: black;
+  font-size: 125%;
+}
+
+main .logo_de_whatsapp 
+{
+  font-size: 60px;
+  text-decoration: none;
+  text-align: end;
+  font-style: normal;
+  color: #128C7E;
+}
+
+main .logo_de_whatsapp:hover 
+{
+  animation: spin 5s infinite;
+}
+
+main button
+{
+  width: 30%;
+}
+
+/*Footer*/
+footer 
+{
+  background-color: #c44f69;
+}
+
+footer .iconos,
+footer .iconos-facebook,
+footer .iconos-instagram,
+footer .iconos-linkedin,
+footer .iconos-twitter 
+{
+  font-size: 50px;
+  color: #fff5ef;
+}
+
+footer .iconos:hover,
+footer .iconos-facebook:hover,
+footer .iconos-instagram:hover,
+footer .iconos-linkedin:hover,
+footer .iconos-twitter:hover 
+{
+  animation: zooming 2s infinite;
+}
+
+footer .iconos-facebook 
+{
+  color: #17a9fd;
+}
+
+footer .iconos-instagram 
+{
+  color: #8a3ab9;
+}
+
+footer .iconos-linkedin 
+{
+  color: #00a0dc;
+}
+
+footer .iconos-twitter 
+{
+  color: #00acee;
+}
+
+@keyframes zooming 
+{
+  from {
+    transform: scale(100%);
+  }
+
+  to {
+    transform: scale(125%);
+  }
+}
+
+@media screen and (max-width: 450px) 
+{
+  footer .iconos,
+  footer .iconos-facebook,
+  footer .iconos-instagram,
+  footer .iconos-linkedin,
+  footer .iconos-twitter 
+  {
+    font-size: 25px;
+  }
+}
+
+
+@keyframes spin 
+{
+  from 
+  {
+    transform: rotateZ(0deg);
+  }
+
+  to 
+  {
+    transform: rotateZ(360deg) scale(125%);
+  }
+}
+
+@media screen and (max-width: 750px) 
+{
+  main .logo_de_whatsapp 
+  {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) 
+{
+  main h2 
+  {
+    font-size: 250%;
+  }
+
+  main p 
+  {
+    font-size: 150%;
+  }
+}
